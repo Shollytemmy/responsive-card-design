@@ -9,14 +9,37 @@ body {
 }
 
 .container {
-  height: 100vh;
   display: grid;
   place-content: center;
+  height: 100vh;
 }
 
-#size {
-  position: absolute;
-  top: 60%;
-  left: 50%;
-  transform: translateX(-50%);
+.card {
+  border: 1px solid red;
+  width: 50vw;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.nav_menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mid_img {
+  width: 50%;
+  background-image: url("./bunyameen.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
 }/*# sourceMappingURL=style.css.map */
